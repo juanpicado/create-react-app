@@ -53,9 +53,7 @@ packages:
     proxy: npmjs
 
 # log settings
-logs:
-  - { type: stdout, format: pretty, level: warn }
-  #- {type: file, path: verdaccio.log, level: info}
+logs: { type: stdout, format: pretty, level: warn }
 
 # See https://github.com/verdaccio/verdaccio/issues/301
 server:
